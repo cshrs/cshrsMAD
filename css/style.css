@@ -1,10 +1,35 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: normal;
+    color: white;
 
 }
 
 /* Set the background color to pastel blue */
 body {
-    background-color: #AEC6CF; /* Replace with the desired pastel blue color code */
+    background-color: #2D1E2F;
 }
+
+p {
+  color: white;
+}
+
+body {
+ font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+
+.special-h1 {
+  color: #FE5F55;
+  font-size: 32px;
+}
+
+/* Increase spacing for <li> bullet points */
+li {
+  margin-left: 20px; /* Adjust the value as needed to control the spacing */
+  list-style: disc outside; /* Add bullet points outside the list item */
+  margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+]
