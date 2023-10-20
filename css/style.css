@@ -2,7 +2,6 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
     color: white;
-
 }
 
 /* Set the background color to pastel blue */
@@ -29,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .special-h2 {
   font-family: 'Crimson Text', serif;
-    margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+  margin-bottom: 50px; /* Adjust the value as needed to control the spacing */
 
 }
 
