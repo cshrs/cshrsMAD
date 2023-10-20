@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .special-h2 {
   font-family: 'Crimson Text', serif;
-  margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+    margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
 
 }
 
@@ -38,4 +38,4 @@ li {
   margin-left: 20px; /* Adjust the value as needed to control the spacing */
   list-style: disc outside; /* Add bullet points outside the list item */
   margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
-]
+}
