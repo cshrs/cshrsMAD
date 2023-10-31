@@ -41,3 +41,11 @@ li {
   list-style: disc outside; /* Add bullet points outside the list item */
   margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
 }
+
+
+/* Remove underlines and set the color */
+   a {
+        text-decoration: none; /* Remove underlines */
+        color: #ffff; /* Set the color to black, or any color you prefer */
+        font-weight: normal;
+      }
