@@ -4,7 +4,7 @@ body {
     color: white;
 }
 
-/* Set the background color to pastel blue */
+/* Set the background colour */
 body {
     background-color: #2D1E2F;
 }
@@ -53,6 +53,6 @@ li {
 /* Remove underlines and set the color */
    a {
         text-decoration: none; /* Remove underlines */
-        color: #ffff; /* Set the color to black, or any color you prefer */
+        color: #FF5733; /* Set the color to black, or any color you prefer */
         font-weight: normal;
       }
