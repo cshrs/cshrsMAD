@@ -16,7 +16,7 @@ ul.nav li li li:hover ul, ul.nav li li li.sfHover ul{left:10em; top:0;}
 
 /* Default Colours */
 
-.nav a{padding:.75em 1em; text-decoration:none; background: color #00000000;}
+.nav a{padding:.75em 1em; text-decoration:bold; background: color #00000000;}
 .nav li.active a{color:#2D1E2F;}
 .nav a, .nav a:visited, .nav li.active li a{color:#333333;}
 .nav li{background:#FF5733;}
