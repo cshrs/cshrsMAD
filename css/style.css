@@ -92,8 +92,8 @@ li {
 
 /* Remove underlines and set the color */
    a {
-        text-decoration: none; /* Remove underlines */
-        color: #FF5733; /* Set the color to black, or any color you prefer */
+        text-decoration: none; 
+        color: #FF5733; 
         font-weight: normal;
       }
 
