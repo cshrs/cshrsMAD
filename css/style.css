@@ -6,7 +6,7 @@
 .nav ul{position:absolute; top:-999em; width:10em;}
 .nav ul li{width:100%;}
 .nav li:hover{visibility:inherit;}
-.nav li{position:relative; display:inline-block; zoom:1; *display:inline;}
+.nav li{position:relative; *display:inline;}
 .nav a{display:block; position:relative;}
 .nav li:hover ul, .nav li.sfHover ul{left:0; top:2.5em; z-index:99;}
 ul.nav li:hover li ul, ul.nav li.sfHover li ul{top:-999em;}
@@ -16,13 +16,13 @@ ul.nav li li li:hover ul, ul.nav li li li.sfHover ul{left:10em; top:0;}
 
 /* Default Colours */
 
-.nav a{padding:.75em 1em; text-decoration:none; background: color #0000;}
+.nav a{padding:.75em 1em; text-decoration:none; background: color #00000000;}
 .nav li.active a{color:#2D1E2F;}
 .nav a, .nav a:visited, .nav li.active li a{color:#333333;}
-.nav li{background:#E0E0E0;}
-.nav li li{background:#E0E0E0;}
-.nav li li li{background:#E0E0E0;}
-.nav li:hover, .nav li.sfHover, .nav a:focus, .nav a:hover, .nav a:active{background:#C0C0C0;}
+.nav li{background:#FF5733;}
+.nav li li{background:#FF5733;}
+.nav li li li{background:#FF5733;}
+.nav li:hover, .nav li.sfHover, .nav a:focus, .nav a:hover, .nav a:active{background:#c65c47;}
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
