@@ -6,6 +6,14 @@
     padding: 10px 0;
   }
   
+  .wrapper2 {
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    min-height: 100vh; /* At least the full height of the viewport */
+    margin: 0;
+    padding: 0;
+  }
 
 /* Navigation Styles */
 #topnav {
