@@ -32,6 +32,7 @@
 .nav a {
   text-decoration: bold;
   font-size: 18px;
+  font-family: 'Work Sans' sans-serif;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
   color: #000000; /* Sets the text color */
