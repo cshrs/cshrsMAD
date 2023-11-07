@@ -1,9 +1,12 @@
 /* General Wrapper Styles */
 .wrapper {
-  width: 100%;
-  text-align: center; /* Centers the navigation */
-  margin: 0 auto;
-  padding: 10px 0;
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    min-height: 100vh; /* At least the full height of the viewport */
+    margin: 0;
+    padding: 0;
+  
 }
 
 /* Navigation Styles */
@@ -27,18 +30,19 @@
 
 /* Link Styles */
 .nav a {
-  text-decoration: none;
+  text-decoration: bold;
+  font-size: 18px;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
-  color: #ffffff; /* Sets the text color */
-  background-color: #007bff; /* Sets the background color */
+  color: #000000; /* Sets the text color */
+  background-color: #FF5733; /* Sets the background color */
   transition: background-color 0.3s; /* Adds a transition effect on hover */
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #0056b3; /* Darkens the link on hover */
+  background-color: #c65c47; /* Darkens the link on hover */
 }
 
 /* Last Item Style */
