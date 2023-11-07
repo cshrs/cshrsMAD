@@ -1,4 +1,4 @@
-#topnav{z-index:1000; font-size:12px; text-align:center; text-transform:uppercase; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+#topnav{z-index:1000; font-size:12px;  font-family: 'Work Sans', sans-serif; text-align:center; text-transform:uppercase; border-top:1px solid #999999; border-bottom:1px solid #999999; color: #FF5733;}
 
 /* ESSENTIAL STYLES */
 
@@ -27,7 +27,7 @@ ul.nav li li li:hover ul, ul.nav li li li.sfHover ul{left:10em; top:0;}
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 div.wrapper{display:block; margin:0 0 1px 0; text-align:left;}
-div.wrapper h1 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:normal; line-height:normal;}
+/*div.wrapper h1 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:normal; line-height:normal;}
 div.wrapper h2 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#FF5733}
 div.wrapper h3 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#FF5733}
 div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal;}
