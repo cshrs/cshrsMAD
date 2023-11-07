@@ -13,6 +13,8 @@
     min-height: 100vh; /* At least the full height of the viewport */
     margin: 0;
     padding: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
   }
 
 /* Navigation Styles */
