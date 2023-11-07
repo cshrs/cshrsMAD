@@ -4,6 +4,7 @@
     text-align: center; /* Centers the navigation */
     margin: 0 auto;
     padding: 10px 0;
+    text-transform: uppercase;
   }
   
   .wrapper2 {
