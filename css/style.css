@@ -1,3 +1,6 @@
+/* ----------------------------------------------Navigation bar------------------------------------- */
+
+
 /* General Wrapper Styles */
 .wrapper {
     width: 100%;
@@ -65,7 +68,25 @@
   clear: both;
 }
 
+/* ----------------------------------------------Image formatting------------------------------------- */
 
+
+.image-list {
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0; /* Removes the default padding */
+  margin: 0; /* Removes the default margin */
+}
+
+.image-list li {
+  display: inline-block; /* Displays list items inline */
+  margin-right: 10px; /* Adds some space between the images */
+}
+
+.image-list img {
+  width: auto; /* Maintains the original aspect ratio */
+  height: 200px; /* Sets a uniform height for all images */
+  vertical-align: middle; /* Aligns images vertically in line */
+}
 
 /* ----------------------------------------------Various website styles------------------------------------- */
 
