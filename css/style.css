@@ -105,16 +105,16 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
-    color: white;
+    color: #36393B;
 }
 
 /* Set the background colour */
 body {
-    background-color: #2D1E2F;
+    background-color: #ECE9E0;
 }
 
 p {
-  color: white;
+  color: #36393B;
 }
 
 body {
@@ -123,12 +123,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
- color: #c65c47
+ color: #A5D8FF
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #FF5733;
+    color: #A5D8FF;
     font-size: 40px;
     text-align: center;
 }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link-h2 {
-  color: #FF5733; /* Remove underlines */
+  color: #D5AC4E; /* Remove underlines */
   font-weight: bold;
   text-align: center;
 
@@ -159,7 +159,7 @@ li {
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #FF5733; 
+        color: #D5AC4E; 
         font-weight: normal;
       }
 
