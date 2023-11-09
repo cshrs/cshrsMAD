@@ -47,15 +47,15 @@
   font-family: 'Work Sans' sans-serif;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
-  color: #000000; /* Sets the text color */
-  background-color: #FF5733; /* Sets the background color */
+  color: #36393B; /* Sets the text color */
+  background-color: #D5AC4E; /* Sets the background color */
   transition: background-color 0.3s; /* Adds a transition effect on hover */
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #c65c47; /* Darkens the link on hover */
+  background-color: #9F803A; /* Darkens the link on hover */
 }
 
 /* Last Item Style */
@@ -123,12 +123,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
- color: #A5D8FF
+ color: #13293D
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #A5D8FF;
+    color: #13293D
     font-size: 40px;
     text-align: center;
 }
