@@ -72,7 +72,7 @@
 .container {
   width: 80%; /* Adjust the width as needed */
   margin: 0 auto; /* Center the container horizontally */
-  padding: 15px; /* Add padding as needed to create space around the content */
+  padding: 15px 0px; /* Add padding as needed to create space around the content */
 }
 
 
@@ -135,6 +135,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #13293D
     font-size: 40px;
     text-align: center;
+    padding: 10px; /* 10px top/bottom padding, 20px left/right padding */
+
 }
 
 .special-h2 {
