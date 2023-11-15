@@ -104,6 +104,12 @@
   vertical-align: middle; /* Aligns images vertically in line */
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 /* ----------------------------------------------Various website styles------------------------------------- */
 
 
