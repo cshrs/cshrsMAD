@@ -1,4 +1,4 @@
-// Scroll to top button
+// Scroll to top button: From W3 Schools, ChatGPT and Stack Overflow
 
 document.addEventListener("DOMContentLoaded", function () {
     var scrollToTopButton = document.querySelector(".scroll-to-top");
