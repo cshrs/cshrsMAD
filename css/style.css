@@ -110,24 +110,31 @@
   flex-wrap: wrap;
 }
 
-/* ----------------------------------------------Scroll to top------------------------------------- */
+/* ----------------------------------------------Scroll to top: With help from w3 schools, chatgpt------------------------------------- */
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+/* Scroll to top button styles */
 .scroll-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #D5AC4E;
-  color: #36393B;
-  padding: 10px 20px;
-  cursor: pointer;
-  display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #D5AC4E;
+    color: #36393B;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .scroll-to-top:hover {
-  background-color: #9F803A;
+    background-color: #9F803A;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
 }
 
 
