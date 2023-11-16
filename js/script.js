@@ -9,7 +9,7 @@ function scrollToTop() {
 // Show or hide the scroll-to-top button based on scroll position
 window.onscroll = function () {
     var scrollButton = document.querySelector(".scroll-to-top");
-    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         scrollButton.style.display = "block";
     } else {
         scrollButton.style.display = "none";
