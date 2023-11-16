@@ -1,4 +1,4 @@
-// Scroll to top button: From W3 Schools, ChatGPT and Stack Overflow
+// Scroll to top button: From W3 Schools, ChatGPT, and Stack Overflow
 
 function scrollToTop() {
     document.body.scrollTop = 0;
@@ -8,10 +8,9 @@ function scrollToTop() {
 // Show or hide the scroll-to-top button based on scroll position
 window.onscroll = function () {
     var scrollButton = document.querySelector(".scroll-to-top");
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        scrollButton.classList.add("show");
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        scrollButton.style.display = "block";
     } else {
-        scrollButton.classList.remove("show");
+        scrollButton.style.display = "none";
     }
 };
-
