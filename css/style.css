@@ -111,21 +111,23 @@
 }
 
 /* ----------------------------------------------Scroll to top------------------------------------- */
-
+html {
+  scroll-behavior: smooth;
+}
 
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #007BFF;
-  color: #fff;
+  background-color: #D5AC4E;
+  color: #36393B;
   padding: 10px 20px;
   cursor: pointer;
   display: none;
 }
 
 .scroll-to-top:hover {
-  background-color: #0056b3;
+  background-color: #9F803A;
 }
 
 
