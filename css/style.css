@@ -86,13 +86,12 @@
 
 /* ----------------------------------------------Video formatting------------------------------------- */
  .video-container {
-  margin-bottom: 20px; /* Margin for video */
+  margin-bottom: 30px; /* Margin for video */
 }
 
 
 video {
   display: block; /* Ensure the video is treated as a block element */
-  margin: 0 auto; /* Center the video horizontally */
 }
 
 /* ----------------------------------------------Image formatting------------------------------------- */
