@@ -164,7 +164,7 @@ body {
 
 p {
   color: #36393B;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
@@ -205,6 +205,7 @@ li {
   margin-left: 20px; /* Adjust the value as needed to control the spacing */
   list-style: disc outside; /* Add bullet points outside the list item */
   margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+  font-size: 16px;
 }
 
 
