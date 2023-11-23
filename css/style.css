@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link-h2 {
-  color: #D5AC4E; /* Remove underlines */
+  color: #008080; /* Remove underlines */
   font-weight: bold;
   text-align: center;
 
@@ -219,7 +219,7 @@ li {
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #D5AC4E; 
+        color: #008080; 
         font-weight: normal;
       }
 
