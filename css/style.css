@@ -54,14 +54,14 @@
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
   color: #36393B; /* Sets the text color */
-  background-color: #D5AC4E; /* Sets the background color */
+  background-color: #008080; /* Sets the background color */
   transition: background-color 0.3s; /* Adds a transition effect on hover */
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #9F803A; /* Darkens the link on hover */
+  background-color: #004949; /* Darkens the link on hover */
 }
 
 /* Last Item Style */
@@ -136,7 +136,7 @@ html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #D5AC4E;
+    background-color: #008080;
     color: #36393B;
     padding: 10px 20px;
     cursor: pointer;
@@ -144,8 +144,10 @@ html {
     transition: opacity 0.5s ease-in-out;
 }
 
+/* #D5AC4E */
+
 .scroll-to-top:hover {
-    background-color: #9F803A;
+    background-color: #004949;
 }
 
 .scroll-to-top.show {
