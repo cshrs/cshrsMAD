@@ -202,6 +202,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.index-h2 {
+text-align: center;
+font-family: 'Noto Sans', sans-serif;
+color: #008080
+}
+
 .link-h2 {
   color: #40a877; /* Remove underlines */
   font-weight: bold;
