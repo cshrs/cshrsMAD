@@ -190,13 +190,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #13293D
     font-size: 40px;
     text-align: center;
-    padding: 10px; /* 10px top/bottom padding, 20px left/right padding */
+    padding: 10px; 
 
 }
 
 .special-h2 {
   font-family: 'League Spartan', sans-serif;
-  margin-bottom: 80px; /* Adjust the value as needed to control the spacing */
+  margin-bottom: 80px; 
   color: white
   
 
@@ -205,7 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 .index-h2 {
 text-align: center;
 font-family: 'Noto Sans', sans-serif;
-color: #008080
+color: #008080;
+padding: -10px; 
+
 }
 
 .link-h2 {

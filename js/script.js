@@ -15,22 +15,3 @@ window.onscroll = function () {
     }
 };
 
-// comments.js using Utterances
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Check if the Utterances script has not been loaded already
-    if (!document.getElementById('utterances-script')) {
-        var script = document.createElement('script');
-        script.id = 'utterances-script';
-        script.src = 'https://utteranc.es/client.js';
-        script.setAttribute('repo', 'cshrs/cshrsMAD');
-        script.setAttribute('issue-term', 'pathname');
-        script.setAttribute('theme', 'github-light');
-        script.setAttribute('crossorigin', 'anonymous');
-        script.async = true;
-
-        // Append the script to the comments-container
-        document.getElementById('comments-container').appendChild(script);
-    }
-});
-
