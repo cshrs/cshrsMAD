@@ -14,3 +14,17 @@ window.onscroll = function () {
         scrollButton.style.display = "none";
     }
 };
+
+// comments.js using Utterances
+
+document.addEventListener('DOMContentLoaded', function () {
+    var script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'cshrs/cshrsMAD');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+
+    document.getElementById('comments-container').appendChild(script);
+});
