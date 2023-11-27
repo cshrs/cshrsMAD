@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
 
 
-/* ----------------------------------------------Navigation bar------------------------------------- */
+/* ----------------------------------------------Navigation bar, coded with help from w3 schools------------------------------------- */
 
 
 /* General Wrapper Styles */
@@ -25,6 +25,8 @@
     opacity: 1;
     transition: opacity 0.5s ease-out;
     text-align: center;
+    width: 150%;
+    height: 150vh;
   }
 
 /* Navigation Styles */
