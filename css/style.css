@@ -1,32 +1,28 @@
 /* ----------------------------------------------Imports------------------------------------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
-
 
 /* ----------------------------------------------Navigation bar, coded with help from w3 schools------------------------------------- */
 
-
 /* General Wrapper Styles */
 .wrapper {
-    width: 100%;
-    text-align: center; /* Centers the navigation */
-    margin: 0 auto;
-    padding: 5px 0;
-    text-transform: uppercase;
-  }
-  
-  .wrapper2 {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
-    margin: 0;
-    padding: 0;
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-    text-align: center;
+  width: 100%;
+  text-align: center; /* Center the navigation */
+  margin: 0 auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
 
-  }
+.wrapper2 {
+  display: flex; /* Use flexbox for easy alignment */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  min-height: 100vh; /* At least the full height of the viewport */
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  text-align: center;
+}
 
 /* Navigation Styles */
 #topnav {
@@ -82,7 +78,6 @@
   padding: 5px 0px; /* Add padding as needed to create space around the content */
 }
 
-
 /* General Wrapper Styles */
 .body {
   width: 100%;
@@ -91,18 +86,15 @@
 }
 
 /* ----------------------------------------------Video formatting------------------------------------- */
- .video-container {
+.video-container {
   margin-bottom: 30px; /* Margin for video */
 }
-
 
 video {
   display: block; /* Ensure the video is treated as a block element */
 }
 
 /* ----------------------------------------------Image formatting------------------------------------- */
-
-
 .image-list {
   list-style-type: none; /* Removes the default list styling */
   padding: 0; /* Removes the default padding */
@@ -127,48 +119,42 @@ video {
 }
 
 /* ----------------------------------------------Scroll to top: With help from w3 schools, chatgpt------------------------------------- */
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Scroll to top button styles */
 .scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #008080;
-    color: #ECE9E0;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: none;
-    transition: opacity 0.5s ease-in-out;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #008080;
+  color: #ECE9E0;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
 }
 
-/* #D5AC4E */
-
 .scroll-to-top:hover {
-    background-color: #004949;
+  background-color: #004949;
 }
 
 .scroll-to-top.show {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 /* ----------------------------------------------Various website styles------------------------------------- */
-
-
 body {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: normal;
-    color: #36393B;
-    font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  color: #36393B;
+  font-size: 20px;
 }
 
-/* Set the background colour */
+/* Set the background color */
 body {
-    background-color: #ECE9E0;
+  background-color: #ECE9E0;
 }
 
 p {
@@ -176,45 +162,36 @@ p {
   font-size: 20px;
 }
 
-body {
- font-family: 'Work Sans', sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans', sans-serif;
-  color: #008080
+  color: #008080;
 }
 
 .special-h1 {
-    font-weight: bold;
-    color: #13293D
-    font-size: 40px;
-    text-align: center;
-    padding: 10px; 
-
+  font-weight: bold;
+  color: #13293D;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
 }
 
 .special-h2 {
   font-family: 'League Spartan', sans-serif;
-  margin-bottom: 80px; 
-  color: white
-  
-
+  margin-bottom: 80px;
+  color: white;
 }
 
 .index-h2 {
-text-align: center;
-font-family: 'Noto Sans', sans-serif;
-color: #008080;
-padding: -10px; 
-
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: #008080;
+  padding: -10px;
 }
 
 .link-h2 {
   color: #40a877; /* Remove underlines */
   font-weight: bold;
   text-align: center;
-
 }
 
 /* Increase spacing for <li> bullet points */
@@ -225,49 +202,51 @@ li {
   font-size: 20px;
 }
 
-ul { 
-font-size: 20px;
-
+ul {
+  font-size: 20px;
 }
 
 /* Remove underlines and set the color */
-   a {
-        text-decoration: none; 
-        color: #40a877; 
-        font-weight: normal;
-      }
+a {
+  text-decoration: none;
+  color: #40a877;
+  font-weight: normal;
+}
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-      table {
-        border-collapse: collapse;
-        width: 100%;
-    }
+table, th, td {
+  border: 1px solid black;
+}
 
-    table, th, td {
-        border: 1px solid black;
-    }
+th, td {
+  padding: 8px;
+  text-align: left;
+}
 
-    th, td {
-        padding: 8px;
-        text-align: left;
-    }
-
-  /* Secret test */
-  #video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+/* Secret test */
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px;
 }
 
 .quiz-container {
@@ -295,26 +274,18 @@ font-size: 20px;
 }
 
 .test-h2 {
-
   color: Orange;
-
 }
 
 .test-body {
-
   color: orange;
 }
 
 .white-box {
   background-color: white;
-  width: 1100px; 
+  width: 1100px;
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;
   align-self: center;
   float: none;
 }
-
-
-
-
-    
