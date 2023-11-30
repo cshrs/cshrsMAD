@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAD (A) Project 2454797</title>
+
+    <!-- Style Import -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your external CSS file -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+
+    <!-- Scroll to top script -->
+    <script src="js/script.js"></script>
+
+    <!-- Additional meta tags, if needed -->
+
+</head>
+
+  <!-- Button to trigger sound -->
+  <button id="playButton">Play Sound</button>
+
+  <!-- Audio element for the sound -->
+  <audio id="button1">
+      <source src="Resources/button1eshort.wav" type="audio/wav">
+      Your browser does not support the audio tag.
+  </audio>
+
+  <script>
+      document.getElementById('playButton').addEventListener('click', function () {
+          var audio = document.getElementById('myAudio');
+          audio.play();
+      });
+  </script>
+
+
+    <!-- Title display -->
+<body>
+
+	<div id="Title">
+        <h1 class="special-h1">Staying Safe Online: For the Older Generation</h1>
+
+					<!-- Navigation Header --> 
+					<div class="wrapper">
+						<div id="topnav">
+						  <ul class="nav">
+							<li><a href="index.html">HOME</a></li>
+							<li> <a href="Resources.html">RESOURCES</a></li>
+
+						  </ul>
+						  <div class="clear"></div>
+						</div>
+					  </div>
+
+	<div class="body">
+		<div class="container">
+		
+			<!--Secret Test Page-->
+          
+            <!-- Video Background -->
+    <video id="video-background" autoplay muted loop>
+        <source src="Resources/editedvideohdmid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content on top of the video -->
+    <div id="content">
+
+            <h2>(Not so) Secret Test page</h2>
+            <p>Using some of the resources and media collected over the past 10 weeks I have curated a dummy page which could be used in my final project</p>
+
+            <h1>Welcome to my webpage on online safety for adults. In the brand new digital age, the net has grown to be a fundamental part of our everyday lives.
+				While it presents us with infinite possibilities to learn, connect and create, it additionally poses some serious threats to our privateness, security
+				and well-being. Adults who lack records literacy abilities are especially susceptible to those risks, making it important to educate ourselves and our
+				loved ones on a way to stay safe online. On this page, we will explore a number of the most common online dangers and provide you practical guidelines
+				and resources to help you navigate the net international with self-assurance and peace of mind</h1>
+
+               
+
+    <div class="quiz-container">
+
+        <div id="question" class="question"></div>
+
+        <div id="options" class="options">
+        </div>
+
+        <button onclick="checkAnswer()">Submit Answer</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Internet Safety Quiz data
+        const internetSafetyQuizData = [
+            {
+                question: "Which of the following is a strong password?",
+                options: ["password", "P@ssw0rd", "123456", "qwerty"],
+                correctAnswer: "P@ssw0rd"
+            },
+            {
+                question: "What is phishing?",
+                options: ["A way of fishing", "A fraudulent attempt to obtain sensitive information", "A type of computer virus", "A secure internet connection"],
+                correctAnswer: "A fraudulent attempt to obtain sensitive information"
+            },
+        ];
+
+        // Quiz state
+        let currentQuestion = 0;
+        let score = 0;
+
+        // Display the current question and options
+        function displayQuestion() {
+            const questionElement = document.getElementById('question');
+            const optionsElement = document.getElementById('options');
+
+            questionElement.textContent = internetSafetyQuizData[currentQuestion].question;
+
+            optionsElement.innerHTML = "";
+            internetSafetyQuizData[currentQuestion].options.forEach((option, index) => {
+                const optionButton = document.createElement('button');
+                optionButton.textContent = option;
+                optionButton.className = 'option';
+                optionButton.onclick = () => selectOption(index);
+                optionsElement.appendChild(optionButton);
+            });
+        }
+
+        // Handle option selection
+        function selectOption(index) {
+            const selectedOption = internetSafetyQuizData[currentQuestion].options[index];
+            const correctAnswer = internetSafetyQuizData[currentQuestion].correctAnswer;
+
+            if (selectedOption === correctAnswer) {
+                score++;
+            }
+
+            currentQuestion++;
+
+            if (currentQuestion < internetSafetyQuizData.length) {
+                displayQuestion();
+            } else {
+                displayResult();
+            }
+        }
+
+        // Display quiz result
+        function displayResult() {
+            const resultElement = document.getElementById('result');
+            resultElement.textContent = `You scored ${score} out of ${internetSafetyQuizData.length}!`;
+        }
+
+        // Start the quiz
+        displayQuestion();
+
+        // Function to check the answer when the "Submit Answer" button is clicked
+        function checkAnswer() {
+            const selectedOption = document.querySelector('.option:checked');
+            if (selectedOption) {
+                selectOption(parseInt(selectedOption.value, 10));
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+        </div>
+        
+
+        
