@@ -266,7 +266,7 @@ font-size: 20px;
 #content {
     position: relative;
     z-index: 1;
-    color: orange 
+    color: orange; 
     text-align: center;
     padding: 50px;
 }
@@ -297,14 +297,23 @@ font-size: 20px;
 
 .test-h2 {
 
-  color: Orange
+  color: Orange;
 
 }
 
 .test-body {
 
-  color: orange
+  color: orange;
 }
+
+.white-box {
+  background-color: white;
+  width: 300px; 
+  padding: 20px;
+  margin: 20px; 
+  float: left;
+}
+
 
 
 
